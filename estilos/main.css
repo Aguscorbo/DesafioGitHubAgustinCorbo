@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Josefin Sans', sans-serif;
-    background-color: tan;
+    background-image: linear-gradient(to right, #FF4BBA, #F8F1F0);
 }
 *{
     margin: 0;
@@ -19,8 +19,13 @@ nav ul li{
     list-style: none;
     margin: 1.1rem;
     padding: 0.3rem;
-    background-color: burlywood;
+    background-color: #E8DAEF;
     border-radius: 1rem;
+}
+
+nav ul li:hover{
+    background-color: #F5EEF8;
+    transform: scale(1.1);
 }
 img{
     width: 40%;
@@ -54,7 +59,7 @@ img{
 }
 footer p{
     text-align: center;
-    background-color: burlywood;
+    background-color: #E8DAEF;
     border-radius: 1rem;
 }
 @media only screen and (min-width: 600px){
